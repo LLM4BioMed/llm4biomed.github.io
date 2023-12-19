@@ -9,6 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ISMB 2024 Tutorial Proposal: A Practical Introduction to Large Language Models          in Biomedical Data Science Research</title>
 
+  <link rel="stylesheet" href="./style.css">
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
@@ -30,198 +31,198 @@
 </head>
 <body>
 
-<nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
-</nav>
-
-
-<section class="hero">
-  <div class="hero-body">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered">
-        <div class="column has-text-centered">
-          <h1 class="title is-2 publication-title">
-              <span style="font-size: 80%">ISMB 2024 Tutorial Proposal:</span><br />
-              A Practical Introduction to Large Language Models in Biomedical Data Science Research 
-            </h1>
-
-          <div class="is-size-5 publication-authors">
-            <span class="author-block">
-              <table>
-            <tr>
-                <!-- <th scope="row">TR-7</th> -->
-                <td width="25%" style="text-align: center; padding: 5px"><img width="150px" height="150px" src="https://gracehopper.yalecollege.yale.edu/sites/default/files/resize/images/Robert%20Xiangru%20Tang-279x279.jpg"></td>
-                <td width="25%" style="text-align: center; padding: 5px"><img width="150px" height="150px" src="https://andy-jqa.github.io/images/profile.jpeg"></td>
-                <td width="25%" style="text-align: center; padding: 5px"><img width="150px" height="150px" src="https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=Ddw_B4EAAAAJ&citpid=7"></td>
-
-            </tr>
-              <tr>
-                <!-- <th scope="row">TR-7</th> -->
-                <td width="25%" style="text-align: center"><a href="https://xiangrutang.github.io/" style="border-radius: 50%">Robert Xiangru Tang</a><sup>1</sup>,</td>
-                <td width="25%" style="text-align: center"><a href="http://qiaojin.info/" style="border-radius: 50%">Qiao Jin*</a><sup>2</sup>,</td>
-                <td width="25%" style="text-align: center"><a href="https://hzhou.scholar.harvard.edu/" style="border-radius: 50%">Hufeng Zhou*</a><sup>3</sup>,</td>
-
-              </tr>
-            </table>
-            </span>
-          </div>
-          <div class="is-size-5 publication-authors">
-            <span class="author-block">
-              <table>
-            <tr>
-                <!-- <th scope="row">TR-7</th> -->
-                <td width="25%" style="text-align: center; padding: 5px"><img width="150px" height="150px" src="https://media.licdn.com/dms/image/C4E03AQHAAsDQ8p2cow/profile-displayphoto-shrink_400_400/0/1643404467648?e=1708560000&v=beta&t=EOIm9-z86Hn_4isG8vf0FmmyLQM0c0vLBW16Ws5tdzc"></td>
-                <td width="25%" style="text-align: center; padding: 5px"><img width="150px" height="150px" src="https://www.nlm.nih.gov/news/images/Zhiyong_Lu_headshot.jpg"></td>
-                <td width="25%" style="text-align: center; padding: 5px"><img width="150px" height="150px" src="https://res.cloudinary.com/ysm/image/upload/yms/prod/c2965e7f-1ca8-4412-b553-3d464d23e7f6"></td>
-
-            </tr>
-              <tr>
-                <!-- <th scope="row">TR-7</th> -->
-                <td width="25%" style="text-align: center"><a href="https://www.linkedin.com/in/shubo-tian-422b844/" style="border-radius: 50%">Shubo Tian*</a><sup>2</sup></td>
-                <td width="25%" style="text-align: center"><a href="https://www.ncbi.nlm.nih.gov/research/bionlp/" style="border-radius: 50%">Zhiyong Lu*</a><sup>2</sup></td>
-                <td width="25%" style="text-align: center"><a href="https://medicine.yale.edu/profile/mark-gerstein/" style="border-radius: 50%">Mark Gerstein*</a><sup>1</sup></td>
-
-              </tr>
-            </table>
-            </span>
-          </div>
-          <div class="is-size-6 publication-authors">
-            <span class="author-block"><sup>1</sup>Yale University,</span>
-            <span class="author-block"><sup>2</sup>NIH,</span>
-            <span class="author-block"><sup>3</sup>Harvard University.</span>
-          </div>
-          <div class="is-size-6 publication-authors">
-            <span class="author-block"><sup>*</sup>Equal Contribution</span>
-          </div>
-          <br />
-          <div class="is-size-5 publication-authors">
-            <b>Virtually.</b>
-          </div>
-          <div class="is-size-5 publication-authors">
-            We will take Q&A through Rocket.Chat and ZOOM. 
-          </div>
-          <br />
-          <div class="is-size-6 publication-authors">
-            <em>Slides may be subject to updates, and full paper lists will be up soon</em>
-          </div>
-        </div>
-      </div>
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
     </div>
-  </div>
-</section>
-<section class="section">
-  <div class="container is-max-desktop">
-    <!-- Abstract. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">About this tutorial</h2>
-        <div class="content has-text-justified">
-          <p>
-Large Language Models (LLMs) like ChatGPT have exhibited remarkable capabilities in understanding and generating language across diverse disciplines. In the realm of biomedical data science and computational biology, LLMs can significantly aid the processes of information accessibility, data analysis, and knowledge discovery. In this tutorial, we offer an introductory level hands-on guide to understanding and utilizing these LLMs in the field of biomedical data science. Our tutorial begins with leveling the learning ground by providing introductions to LLMs and Biomedical Data Science. Subsequently, we delve into the core applications of LLMs in biomedical data science/computational biology via retrieval-augmented generation, database functionalities, and code generation. To facilitate thought-provoking discussions, pertinent case studies will be discussed, emphasizing how to harness the power of LLMs to bridge the gap between technical feasibility and practical utility in biomedical data science. Furthermore, hands-on exercises are included to enable participants to apply their learning in real-time. Participants will also get acquainted with OpenAI's ChatGPT and open-source LLMs, as well as their design, use cases, limitations, and prospects.          </p>
+  </nav>
 
-        </div>
-      </div>
+  <div class="grid-full page-wrapper">
+    <div class="page-title">
+      <div style="font-size: 36px;">ISMB 2024 Tutorial</div>
+      <div>A Practical Introduction to Large Language Models in Biomedical Data Science Research</div>
+      <div style="font-size: 30px;">July 2024, Virtual on Zoom</div>
     </div>
-  </div>
-</section>
-
-
-<section class="section">
-  <div class="container is-max-desktop">
-
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Schedule</h2>
+    
+    <div class="about">
+      <div class="section-title">About This Tutorial</div>
+      <div class="card description">
         <p>
-          Our tutorial will be held on ** (all the times are based on EST = Montreal, Quebec, Canada local time):
+          Large Language Models (LLMs) like ChatGPT have exhibited remarkable capabilities in understanding and generating 
+          language across diverse disciplines. In the realm of biomedical data science and computational biology, LLMs can 
+          significantly aid the processes of information accessibility, data analysis, and knowledge discovery. In this tutorial, 
+          we offer an introductory level hands-on guide to understanding and utilizing these LLMs in the field of biomedical 
+          data science. Our tutorial begins with leveling the learning ground by providing introductions to LLMs and Biomedical 
+          Data Science. Subsequently, we delve into the core applications of LLMs in biomedical data science/computational biology 
+          via retrieval-augmented generation, database functionalities, and code generation. To facilitate thought-provoking 
+          discussions, pertinent case studies will be discussed, emphasizing how to harness the power of LLMs to bridge the gap 
+          between technical feasibility and practical utility in biomedical data science. Furthermore, hands-on exercises are 
+          included to enable participants to apply their learning in real-time. Participants will also get acquainted with OpenAI's 
+          ChatGPT and open-source LLMs, as well as their design, use cases, limitations, and prospects.
         </p>
+      </div>
+    </div>
 
-        <div class="content has-text-justified">
+    <div class="presenters">
+      <div class="section-title">Presenters</div>
+      <div class="agenda card">
+        <table>
+          <tr>
+              <!-- <th scope="row">TR-7</th> -->
+              <td width="25%" style="text-align: center; padding: 5px">
+                <img width="150px" height="150px" src="./images/robert.jpg">
+              </td>
+              <td width="25%" style="text-align: center; padding: 5px">
+                <img width="150px" height="150px" src="./images/qiao.jpeg">
+              </td>
+              <td width="25%" style="text-align: center; padding: 5px">
+                <img width="150px" height="150px" src="./images/hufeng.jpg">
+              </td>
+          </tr>
+          <tr>
+            <!-- <th scope="row">TR-7</th> -->
+            <td width="25%" style="text-align: center">
+              <a href="https://xiangrutang.github.io/" style="border-radius: 50%">Robert Xiangru Tang</a>
+              <br>
+              Yale University
+            </td>
+            <td width="25%" style="text-align: center">
+              <a href="http://qiaojin.info/" style="border-radius: 50%">Qiao Jin*</a>
+              <br>
+              NCBI/NLM/NIH
+            </td>
+            <td width="25%" style="text-align: center">
+              <a href="https://hzhou.scholar.harvard.edu/" style="border-radius: 50%">Hufeng Zhou*</a>
+              <br>
+              Harvard University
+            </td>
+          </tr>
+          <tr>
+            <!-- <th scope="row">TR-7</th> -->
+            <td width="25%" style="text-align: center; padding: 5px">
+              <img width="150px" height="150px" src="./images/shubo.jpg">
+            </td>
+            <td width="25%" style="text-align: center; padding: 5px">
+              <img width="150px" height="150px" src="./images/zhiyong.jpg">
+            </td>
+            <td width="25%" style="text-align: center; padding: 5px">
+              <img width="150px" height="150px" src="./images/mark.jpg">
+            </td>
+          </tr>
+          <tr>
+            <!-- <th scope="row">TR-7</th> -->
+            <td width="25%" style="text-align: center">
+              <a href="https://www.linkedin.com/in/shubo-tian-422b844/" style="border-radius: 50%">Shubo Tian*</a>
+              <br>
+              NCBI/NLM/NIH
+            </td>
+            <td width="25%" style="text-align: center">
+              <a href="https://www.ncbi.nlm.nih.gov/research/bionlp/" style="border-radius: 50%">Zhiyong Lu*</a>
+              <br>
+              NCBI/NLM/NIH
+            </td>
+            <td width="25%" style="text-align: center">
+              <a href="https://medicine.yale.edu/profile/mark-gerstein/" style="border-radius: 50%">Mark Gerstein*</a>
+              <br>
+              Yale University
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3"><sup>*</sup>Equal Contribution</td>
+          </tr>
+        </table>
+      </div>
+    </div>
 
-          <style type="text/css">
-          .tg  {border-collapse:collapse;border-spacing:0;}
-          .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-            overflow:hidden;padding:10px 5px;word-break:normal;}
-          .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-            font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-          .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-          .tg .tg-0lax{text-align:left;vertical-align:top}
-          </style>
-          <table class="tg">
+    <div class="schedule">
+      <div class="section-title">Schedule</div>
+      <div class="agenda card">
+        <p style="text-align: center; margin-top: 0; margin-left: 15px; font-size: 20px; font-weight: bold; color: #06a2be;">Time in EST (Montreal, Quebec, Canada local time)</p>
+        <table class="agenda-table">
           <thead>
             <tr>
-              <th class="tg-0pky">Time</th>
-              <th class="tg-0lax">Section</th>
-              <th class="tg-0lax">Presenter</th>
+              <th class="first-column">Time</th>
+              <th>Section</th>
+              <th>Presenter</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td class="tg-0lax">09:00 - 09:10</td>
-              <td class="tg-0lax">Overview and Welcome  <a href="./slides/1.pdf" target='_blank'>[Slides]</a></td>
-              <td class="tg-0lax">Robert</td>
+              <td class="first-column">09:00 - 09:10</td>
+              <td>Overview and Welcome  <a href="./slides/1.pdf" target='_blank'>[Slides]</a></td>
+              <td>Robert</td>
             </tr>
             <tr>
-              <td class="tg-0lax">09:10 - 09:40</td>
-              <td class="tg-0lax">Introduction to LLMs <a href="./slides/2.pdf" target='_blank'>[Slides]</a></td>
-              <td class="tg-0lax">Shubo</td>
+              <td class="group" colspan="3">Session 1: Introduction & Basics</td>
             </tr>
             <tr>
-              <td class="tg-0lax">09:40 - 10:10</td>
-              <td class="tg-0lax">How to use GPT-3.5 and GPT-4 with Python <a href="./slides/3.pdf" target='_blank'>[Slides]</a></td>
-              <td class="tg-0lax">Qiao</td>
+              <td class="first-column">09:10 - 09:40</td>
+              <td>Introduction to LLMs <a href="./slides/2.pdf" target='_blank'>[Slides]</a></td>
+              <td>Shubo</td>
             </tr>
             <tr>
-              <td class="tg-0lax">10:10 - 10:30</td>
-              <td class="tg-0lax">How to use Open-source LLMs with Python <a href="./slides/4.pdf" target='_blank'>[Slides]</a></td>
-              <td class="tg-0lax">Robert</td>
+              <td class="first-column">09:40 - 10:10</td>
+              <td>How to use GPT-3.5 and GPT-4 with Python <a href="./slides/3.pdf" target='_blank'>[Slides]</a></td>
+              <td>Qiao</td>
             </tr>
             <tr>
-              <td class="tg-0lax">10:30 - 10:45</td>
-              <td class="tg-0lax">Coffee break</td>
-              <td class="tg-0lax"></td>
+              <td class="first-column">10:10 - 10:30</td>
+              <td>How to use Open-source LLMs with Python <a href="./slides/4.pdf" target='_blank'>[Slides]</a></td>
+              <td>Robert</td>
             </tr>
             <tr>
-              <td class="tg-0lax">10:45 - 12:00</td>
-              <td class="tg-0lax">Application of LLMs in Biomedical Data Science  <a href="./slides/5.pdf" target='_blank'>[Slides]</a></td>
-              <td class="tg-0lax">Hufeng, Qiao, Robert</td>
+              <td class="first-column break">10:30 - 10:45</td>
+              <td class="break"  colspan="2">Coffee break</td>
+            </tr>
+            <tr>
+              <td class="group" colspan="3">Session 2: Application of LLMs in Biomedical Data Science</td>
+            </tr>
+            <tr>
+              <td class="first-column">10:45 - 12:00</td>
+              <td>Application of LLMs in Biomedical Data Science  <a href="./slides/5.pdf" target='_blank'>[Slides]</a></td>
+              <td>Hufeng, Qiao, Robert</td>
             </tr>
 
-                     <tr>
-              <td class="tg-0lax">12:00 - 13:00</td>
-              <td class="tg-0lax">Lunch</td>
-              <td class="tg-0lax"></td>
+            <tr>
+              <td class="first-column break">12:00 - 13:00</td>
+              <td class="break"  colspan="2">Lunch</td>
+            </tr>
+            <tr>
+              <td class="group" colspan="3">Session 3: Advanced Topics</td>
+            </tr>
+            <tr>
+              <td class="first-column">13:00 - 14:30</td>
+              <td>Advanced Topics <a href="./slides/6.pdf" target='_blank'>[Slides]</a></td>
+              <td>Zhiyong, Mark</td>
             </tr>
 
-            
             <tr>
-              <td class="tg-0lax">13:00 - 14:30</td>
-              <td class="tg-0lax">Advanced Topics <a href="./slides/6.pdf" target='_blank'>[Slides]</a></td>
-              <td class="tg-0lax">Zhiyong, Mark</td>
+              <td class="first-column break">14:30 - 14:45</td>
+              <td class="break" colspan="2">Coffee break</td>
             </tr>
-
-              <tr>
-              <td class="tg-0lax">14:30 - 14:45</td>
-              <td class="tg-0lax">Coffee break</td>
-              <td class="tg-0lax"></td>
-            </tr>
-            
             <tr>
-              <td class="tg-0lax">14:45 - 15:55</td>
-              <td class="tg-0lax">Hands-on Exercise <a href="./slides/7.pdf" target='_blank'>[Slides]</a></td>
-              <td class="tg-0lax">Robert, Qiao, Hufeng, Shubo</td>
+              <td class="group" colspan="3">Session 4: Hands-on Exercise</td>
+            </tr>
+            <tr>
+              <td class="first-column last-row">14:45 - 15:55</td>
+              <td class="last-row">Hands-on Exercise <a href="./slides/7.pdf" target='_blank'>[Slides]</a></td>
+              <td class="last-row">Robert, Qiao, Hufeng, Shubo</td>
+            </tr>
+            <tr>
+              <td class="foot-note" colspan="3">
+                <sup>*</sup>Slides may be subject to updates, and full paper lists will be up soon
+                <br>
+                <sup>*</sup>We will take Q&A through Rocket.Chat and ZOOM.
+              </td>
             </tr>
           </tbody>
-          </table>
-        </div>
+        </table>
       </div>
     </div>
-
+  </div>
 </body>
 </html>
